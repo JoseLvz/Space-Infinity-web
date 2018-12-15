@@ -22,7 +22,7 @@ public class MenuManager : MonoBehaviour {
             DefeatMenuUI.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
             if (gameIsPaused)
             {

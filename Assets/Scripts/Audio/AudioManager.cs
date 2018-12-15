@@ -90,7 +90,7 @@ public class AudioManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.M)){
             PlaySong();
         }
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             Pause();
         }
